@@ -13,11 +13,9 @@ SoftwareSerial blueToothSerial(0,1);
 void setup()
 {
 
-
-
   pinMode(0,INPUT);
   pinMode(1, OUTPUT);
-  blueToothSerial.begin(38400); // This value it's only for freaduino, it's not for zum.
+  blueToothSerial.begin(38400); // This value it's it's not for zum.
   blueToothSerial.flush();
 
   pinMode(5,OUTPUT); // LED OUTPUT
